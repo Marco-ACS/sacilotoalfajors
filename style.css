@@ -1,0 +1,573 @@
+@import url(carossel.css);
+@media screen and (max-width: 720px){
+    .cabecario{
+        width: 186%;
+    }
+    .sa{
+        width: 186%;
+    }
+    .sobre-o-site{
+        width: 186%;
+    }
+    .texto-sobre{
+        width: 186%;
+    }
+    .cailu-div{
+        width: 186%;
+    }
+    footer{
+        width: 186%;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 227, 206);
+    padding: 0px;
+}
+
+.logo {
+        width: 135px;
+        border-radius: 50%;
+        padding: 16px 16px;
+    }
+
+
+a{
+    text-decoration: none;
+} 
+
+.cabecario {
+    background-color: #442217;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Kanit', sans-serif;
+    top: 0;
+    align-items: center;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+.design{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 75%;
+}
+
+.titulo-site {
+    font-size: 50px;
+    padding-top: 100;
+}
+
+.titulo-cabecario {
+    font-size: 40px;
+    text-align: center;
+} 
+
+.cabeçalho-lista-item {
+    list-style-type: none;
+} /* */
+
+.sobre-o-site {
+    text-align: center;
+    font-family: 'fangsong';
+    font-style: normal;
+    font-variant: normal;
+}
+
+.sa{
+    text-align: center;
+    font-family: 'fangsong';
+}
+
+.texto-sobre {  
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Kanit', sans-serif;
+    color: #CBB000;
+}
+
+/* .classe-ul {
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+    font-size: 24px;
+} 
+
+
+li {
+    color: white;
+} /* Código que dá a cor branca para os textos do cabeçário*/
+
+li {
+    float: left;
+} 
+
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} /* Código que faz os botões das outra disciplinas no cabeçário do site*/
+
+.cabeçalho-lista-item {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+} /* Código que faz os botões das outra disciplinas no cabeçário do site*/
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(0, 0, 0);
+}
+
+li.dropdown {
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+} */
+
+.apresentacao {
+    padding: 12px 0;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Kanit' , sans-serif;
+} /* Código para formatação do título "Quem somos?" */
+ 
+.foto-lnidos {
+    padding-left: 15px;
+    padding-bottom: 80px;
+}
+
+.foto-lnidos img {
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    border: 5px solid #fff;
+    border-radius: 10%;
+    transition: 0.5s ease-in-out;
+    width: -webkit-fill-available;
+} /* Código para formatar as nossas fotos */
+
+.foto-lnidos img:hover{
+    scale: 1.2;
+} /* Código para fazer a imagem crescer */
+
+.foto-estudantes {
+    width: 20%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center; /* Alinha a imagem no centro horizontalmente */
+    text-align: center; /* Alinha a imagem verticalmente no centro */
+} /* Código que altera dos as imagens nossas */
+
+.nome-cailu {
+    text-align: center;
+    font-size: 200%;
+    display: flex;
+    align-self: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.nome-lnido {
+    text-align: left;
+}
+
+.nome-elivin {
+    text-align: left;
+}
+
+.cailu-div{
+    display: flex;
+}
+
+.texto-cailu{
+    text-align: center;
+    font-size: 120%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-self: center;
+    font-family: 'Kanit', sans-serif;
+} /* Código para formatar o texto da Kheylla */
+
+.elivin-div{
+    display: block;
+} 
+
+.texto-elivin{
+    text-align: center;
+    font-size: 150%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+} /* Código para formatar o texto da Evelin*/
+
+.lnido-div{
+    display: block;
+}
+
+.texto-lnido{
+    text-align: center;
+    font-size: 150%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+} /* Código que formata o texto do Marco */
+    
+footer{
+    background-color: #442217;
+    padding: 15px 0;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    color: white;
+} /* Código do rodapé */
+
+.roda-pé-imagem {
+    width: 8%;
+    align-self: center;
+    align-content: center;
+    
+} /* Código para formatar a foto do rodapé*/
+
+.formulario {
+    background-color: #442217;
+    padding: 20px;
+    color: white;
+    align-self: center;
+}
+
+.p { 
+display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.lado {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    align-self: center;
+}
+
+form {
+    display: inline-block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+
+.lado_1 {
+    padding: 0 20px
+             0 100px;
+}
+
+.field label, .field span {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 270px;
+}
+
+.field label, .field span {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 270px;
+}
+
+.lado_2 {
+    margin: 0 80px 0;
+}
+
+.field label, .field span {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+
+.mensagem {
+    line-height: 20px;
+    padding: 10px;
+    height: 110px;
+    resize: none;
+    width: 100%;
+}
+
+/* .tags {
+    text-decoration:solid;
+    text-align: left;
+    font-size: 200%;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+}
+
+.texto-tags {  
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    font-size: 120%;
+    text-align: justify;
+}
+
+.robot {
+    text-decoration:solid;
+    text-align: left;
+    font-size: 200%;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+}
+
+.texto-robot {  
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    font-size: 120%;
+    text-align: justify;
+}
+
+.biotec {
+    text-decoration:solid;
+    text-align: left;
+    font-size: 200%;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+}
+
+.texto-biotec {  
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    font-size: 120%;
+    text-align: justify;
+}
+
+.empre {
+    text-decoration:solid;
+    text-align: left;
+    font-size: 200%;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+}
+
+.texto-empre {  
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    font-size: 120%;
+    text-align: justify;
+} */
+
+.texto-sobre {  
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: justify;
+}
+
+.sobre-o-site {
+    text-decoration:solid;
+    text-align: center;
+    font-size: 200%;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    justify-self: center;
+    align-self: center;
+}
+
+/* .cor-biotec {
+    text-align: center;
+    text-decoration: solid;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.carrosel {
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(243, 227, 206);
+}
+
+.carrosel {
+    display: inline;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.slide-show {
+    overflow: hidden;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.slides-list {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+    width: 400%;
+    position: relative;
+    left: 0%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    --selected-item: 0;
+    position: relative;
+    left: calc(var(--selected-item) * -100%);
+    transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    --total-items: 6;
+    width: calc(var(--total-items) * 100%);
+}
+
+@media screen and (max-width: 720px){
+li {
+    float: left;
+} }
+
+@media screen and (min-width: 394px) and (max-width: 720px) {
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+} }
+
+@media screen and (max-width: 720px){
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} }
+
+.redondo {
+    width: 100%;
+} */
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+/* a:-webkit-any-link {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} }
+
+.alerta {
+    padding: 40px, 30px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 0 gray;
+}
+
+.teclado {
+    background-color: gray;
+    display: grid;
+    gap: 10px; 
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+}
+
+.tecla{
+    color: black;
+    background-color: beige;
+}
+
+.tecla.ativa,
+.tecla:active {
+    color: black;
+    background-color: yellow;
+    outline: none;
+}
+
+.tecla.focus,
+.tecla:focus{
+    outline: none;
+    box-shadow: 1px 1px 10px red
+}
+
+.tecla.ative:focus,
+.tecla.active:focus {
+    box-shadow: 3px 3px 0 pink;
+} */
